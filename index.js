@@ -52,10 +52,8 @@ function updateGitRemote() {
   shell.exec('git push origin master');
 }
 
-updateGitRemote();
-
-const job = schedule.scheduleJob('50 * * * * *', async function() {
-  // getLikersUid('662016827293958168');
-  // updateGitRemote();
+const job = schedule.scheduleJob('* * 2 * * *', async function() {
+  getLikersUid('662016827293958168');
+  updateGitRemote();
   console.log('The answer to life, the universe, and everything!');
 });
