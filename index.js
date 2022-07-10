@@ -44,8 +44,6 @@ async function getLikersUid(tid) {
   fs.writeFileSync(file, JSON.stringify(uids ?? []));
 }
 
-// getLikersUid('662016827293958168');
-
 
 function updateGitRemote() {
   shell.cd(__dirname);
@@ -56,6 +54,8 @@ function updateGitRemote() {
 
 updateGitRemote();
 
-// const job = schedule.scheduleJob('50 * * * * *', function() {
-//   console.log('The answer to life, the universe, and everything!');
-// });
+const job = schedule.scheduleJob('50 * * * * *', async function() {
+  // getLikersUid('662016827293958168');
+  // updateGitRemote();
+  console.log('The answer to life, the universe, and everything!');
+});
