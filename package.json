@@ -1,0 +1,17 @@
+{
+  "name": "bilibili-bobo-likers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node index.js"
+  },
+  "repository": "https://gitee.com/milkiq/bilibili-bobo-likers.git",
+  "author": "1851361+milkiq@user.noreply.gitee.com",
+  "license": "BSD 3-Clause",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dayjs": "^1.11.3",
+    "node-schedule": "^2.1.0",
+    "shelljs": "^0.8.5"
+  }
+}
