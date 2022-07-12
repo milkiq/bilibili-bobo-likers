@@ -1,12 +1,11 @@
 {
-  "name": "bilibili-bobo-likers",
+  "name": "bilibili-uids",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "serve": "node index.js"
+    "likers": "node ./src/get-likers.js"
   },
-  "repository": "https://gitee.com/milkiq/bilibili-bobo-likers.git",
-  "author": "1851361+milkiq@user.noreply.gitee.com",
+  "repository": "https://github.com/milkiq/bilibili-uids.git",
+  "author": "17810390+milkiq@users.noreply.github.com",
   "license": "BSD 3-Clause",
   "dependencies": {
     "axios": "^0.27.2",

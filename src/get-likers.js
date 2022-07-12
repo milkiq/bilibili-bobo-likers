@@ -40,7 +40,7 @@ async function getLikersUid(tid) {
     }
   }
 
-  const file = path.resolve(__dirname, './likers.json');
+  const file = path.resolve(__dirname, '../likers.json');
   fs.writeFileSync(file, JSON.stringify(uids ?? []));
 }
 
