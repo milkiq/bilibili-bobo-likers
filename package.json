@@ -2,7 +2,8 @@
   "name": "bilibili-uids",
   "version": "1.0.0",
   "scripts": {
-    "likers": "node ./src/get-likers.js"
+    "likers": "node ./src/get-likers.js",
+    "dynamic-likers": "node ./src/get-dynamic-likers.js"
   },
   "repository": "https://github.com/milkiq/bilibili-uids.git",
   "author": "17810390+milkiq@users.noreply.github.com",
